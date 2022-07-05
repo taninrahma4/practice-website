@@ -16,7 +16,7 @@ span{
 }
 .first-container{
   display: flex;
-  margin: 3em 0;
+  margin: 4em 0;
 }
 .container{
   width: 50%;
@@ -36,4 +36,56 @@ span{
   border-radius: 25px;
   color: white;
   margin-top: 2em;
+}
+.second-container{
+  display: flex;
+  padding: 2em;
+  background-image: url(../images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.recipie-box{
+  display: flex;
+  justify-content: center;
+}
+.recipies{
+  width: 35%;
+  margin: 1em;
+  padding: 1em 2em;
+  box-shadow: 2px 2px 15px black;
+  border-radius: 20px;
+}
+.recipies img{
+  width: 100%;
+  border-radius: 10px;
+}
+.recipies-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recipies-title h2{
+  margin: 5px 0px;
+}
+.recipies-title p{
+  width: 700px;
+  text-align: center;
+}
+.last-container{
+  display: flex;
+  justify-content: center;
+  margin: 4em 5em;
+  box-shadow: 2px 2px 15px black;
+  border-radius: 10px;
+  padding: 2em;
+}
+.fam-box{
+  margin: 0px 5em;
+  text-align: center;
+}
+.fam-box p{
+  margin: 2px 0px;
+}
+.fam-box h2{
+  margin: 5px;
 }
