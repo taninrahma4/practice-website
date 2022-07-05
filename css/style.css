@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 1.235rem;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-size: 3.5rem;
+  margin: 5px 0px;
+}
+p{
+  margin: 2em 0px;
+}
+span{
+  color: chocolate;
+}
+.first-container{
+  display: flex;
+  margin: 3em 0;
+}
+.container{
+  width: 50%;
+  margin-left: 8%;
+}
+.container img{
+  width: 80%;
+  height: 450px;
+}
+.first-container-para{
+  margin-bottom: 3em;
+}
+.link-btn{
+  text-decoration: none;
+  background-color: orangered;
+  padding: .5em 1em;
+  border-radius: 25px;
+  color: white;
+  margin-top: 2em;
+}
